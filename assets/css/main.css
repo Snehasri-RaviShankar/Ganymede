@@ -52,6 +52,12 @@
   --contrast-color: #ffffff;
 }
 
+.GanymedeOneContainer:hover{
+  box-shadow: 0 8px 15px rgba(248, 34, 73, 0.5); /* Red shadow with transparency */
+  transform: scale(1.05); /* Slightly scales the image */
+  cursor: pointer;
+}
+
 /* Smooth scroll */
 :root {
   scroll-behavior: smooth;
