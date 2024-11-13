@@ -58,6 +58,13 @@
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  .GanymedeOneContainer {
+    width: 90%; /* Reduces image size on smaller screens */
+    margin: 0 auto; /* Centers image within the div */
+  }
+}
+
 /* Smooth scroll */
 :root {
   scroll-behavior: smooth;
