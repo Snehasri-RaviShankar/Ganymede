@@ -59,10 +59,17 @@
 }
 
 @media (max-width: 768px) {
-  .GanymedeOneContainer {
+  .GanymedeOneContainer  .GalileoContainer{
     width: 90%; /* Reduces image size on smaller screens */
     margin: 0 auto; /* Centers image within the div */
   }
+
+}
+
+.GalileoContainer:hover{
+  box-shadow: 0 8px 15px rgba(248, 34, 73, 0.5); /* Red shadow with transparency */
+  transform: scale(1.05); /* Slightly scales the image */
+  cursor: pointer;
 }
 
 /* Smooth scroll */
