@@ -63,22 +63,27 @@
     width: 90%; /* Reduces image size on smaller screens */
     margin: 0 auto; /* Centers image within the div */
   }
+}
 
+@media (max-width: 768px) {
   .GalileoContainer{
     width: 90%; /* Reduces image size on smaller screens */
     margin: 0 auto; /* Centers image within the div */
   }  
+}
 
+@media (max-width: 768px) {
   .AstroBiologyContainer{
     width: 90%; /* Reduces image size on smaller screens */
     margin: 0 auto; /* Centers image within the div */
-  }
+  }  
+} 
 
+@media (max-width: 768px) {
   .SubsurfaceTwoContainer{
     width: 90%; /* Reduces image size on smaller screens */
     margin: 0 auto; /* Centers image within the div */
-  }
-
+  }  
 }
 
 .AstroBiologyContainer:hover{
